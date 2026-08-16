@@ -1,0 +1,48 @@
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f4f6f8;color:#222}main{max-width:900px;margin:30px auto;padding:20px}.card{max-width:650px;margin:50px auto;background:white;padding:30px;border-radius:12px;box-shadow:0 3px 15px #0001}input,textarea,select,button{width:100%;padding:12px;margin:7px 0;border:1px solid #ccc;border-radius:7px;font-size:16px}button{background:#1769aa;color:white;border:0;cursor:pointer}button.link{background:transparent;color:#1769aa}.small{font-size:13px;color:#666}header{display:flex;justify-content:space-between;align-items:center;margin-bottom:25px}header button{width:auto;padding:10px 18px}.item{background:white;padding:18px;margin:10px 0;border-radius:8px;display:flex;gap:15px;align-items:center}.item button{width:auto;margin-left:auto}.question{background:white;padding:20px;margin:15px 0;border-radius:8px}.question label{display:block;padding:8px}.question input{width:auto;margin-right:10px}textarea{min-height:80px}h1{margin-bottom:5px}span{color:#666}
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-header button {
+  width: auto;
+  padding: 8px 16px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th,
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background: #f1f3f5;
+}
+
+tr:hover {
+  background: #fafafa;
+}
+
+.preview {
+  background: #f7f7f7;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 7px;
+}
+
+.result {
+  text-align: center;
+  padding: 30px;
+}
